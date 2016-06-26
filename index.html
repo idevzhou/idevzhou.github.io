@@ -170,7 +170,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Home
+            Startseite
           </a>
         </li>
       
@@ -180,7 +180,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            Categories
+            Kategorien
           </a>
         </li>
       
@@ -190,7 +190,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archives
+            Archiv
           </a>
         </li>
       
@@ -243,6 +243,115 @@
             
               
                 
+                <a class="post-title-link" href="/2016/06/25/xcode-build-version/" itemprop="url">
+                  Xcode 自动填写 Version Build 脚本
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time itemprop="dateCreated" datetime="2016-06-25T23:19:44+08:00" content="2016-06-25">
+              2016-06-25
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<p>&#x5B9E;&#x9645;&#x5F00;&#x53D1;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x7ECF;&#x5E38;&#x8981;&#x624B;&#x52A8;&#x6539;&#x5199; Build &#x7248;&#x672C;&#x53F7;&#xFF0C;&#x8FD9;&#x79CD;&#x65E0;&#x804A;&#x7684;&#x64CD;&#x4F5C;&#x5F88;&#x662F;&#x70E6;&#x4EBA;&#xFF0C;&#x8FD0;&#x7528;&#x811A;&#x672C;&#x8BA9; Xcode &#x81EA;&#x52A8;&#x586B;&#x5199;&#xFF0C;&#x89E3;&#x653E;&#x751F;&#x4EA7;&#x529B;&#x3002;</p>
+</blockquote>
+<h1 id="Build-Path"><a href="#Build-Path" class="headerlink" title="Build Path"></a>Build Path</h1><p><code>Xcode Project</code> -&gt; <code>TARGETS</code> -&gt; <code>Gerneral</code> -&gt; <code>Identity</code> -&gt; <code>Build</code></p>
+<h1 id="Script-Path"><a href="#Script-Path" class="headerlink" title="Script Path"></a>Script Path</h1><p><code>Xcode Project</code> -&gt; <code>TARGETS</code> -&gt; <code>Build Phases</code> -&gt; <code>+</code> -&gt; <code>New Run Script Phase</code></p>
+<p><img src="/2016/06/25/xcode-build-version/run-script.png" alt="run-script"></p>
+<h2 id="&#x6DFB;&#x52A0;&#x65E5;&#x671F;"><a href="#&#x6DFB;&#x52A0;&#x65E5;&#x671F;" class="headerlink" title="&#x6DFB;&#x52A0;&#x65E5;&#x671F;"></a>&#x6DFB;&#x52A0;&#x65E5;&#x671F;</h2><p>Run Script:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">buildNumber=$(/usr/libexec/PlistBuddy -c &quot;Print :CFBundleVersion&quot; &quot;${PROJECT_DIR}/${INFOPLIST_FILE}&quot;)</span><br><span class="line">shortVersion=$(/usr/libexec/PlistBuddy -c &quot;Print :CFBundleShortVersionString&quot; &quot;${PROJECT_DIR}/${INFOPLIST_FILE}&quot;)</span><br><span class="line">buildNumber=`date +&quot;%m%d&quot;`</span><br><span class="line">buildNumber=&quot;$shortVersion.$buildNumber&quot;</span><br><span class="line">/usr/libexec/PlistBuddy -c &quot;Set :CFBundleVersion $buildNumber&quot; &quot;${PROJECT_DIR}/${INFOPLIST_FILE}&quot;</span><br></pre></td></tr></table></figure>
+<p>&#x539F; <code>Build</code> = 1.0<br>&#x6DFB;&#x52A0;&#x811A;&#x672C;&#x8FD0;&#x884C;&#x540E; <code>Build</code> = 1.0.0626</p>
+<p><img src="/2016/06/25/xcode-build-version/xcode-build.png" alt="xcode-build"><br><img src="/2016/06/25/xcode-build-version/xcode-script.png" alt="xcode-script"></p>
+<h2 id="&#x5E74;&#x6708;&#x65E5;&#x65F6;&#x5206;&#x79D2;"><a href="#&#x5E74;&#x6708;&#x65E5;&#x65F6;&#x5206;&#x79D2;" class="headerlink" title="&#x5E74;&#x6708;&#x65E5;&#x65F6;&#x5206;&#x79D2;"></a>&#x5E74;&#x6708;&#x65E5;&#x65F6;&#x5206;&#x79D2;</h2><p>Run Script:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">buildNumber=$(date +%Y%m%d%H%M%S)</span><br><span class="line">/usr/libexec/PlistBuddy -c &quot;Set :CFBundleVersion $buildNumber&quot; &quot;$INFOPLIST_FILE&quot;</span><br></pre></td></tr></table></figure>
+<p>&#x539F; <code>Build</code> = 1.0<br>&#x6DFB;&#x52A0;&#x811A;&#x672C;&#x8FD0;&#x884C;&#x540E; <code>Build</code> = 20160626161220</p>
+<h2 id="&#x81EA;&#x589E;&#x4E00;"><a href="#&#x81EA;&#x589E;&#x4E00;" class="headerlink" title="&#x81EA;&#x589E;&#x4E00;"></a>&#x81EA;&#x589E;&#x4E00;</h2><p>Run Script:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">buildNumber=$(/usr/libexec/PlistBuddy -c &quot;Print CFBundleVersion&quot; &quot;$INFOPLIST_FILE&quot;)</span><br><span class="line">buildNumber=$(($buildNumber + 1))</span><br><span class="line">/usr/libexec/PlistBuddy -c &quot;Set :CFBundleVersion $buildNumber&quot; &quot;$INFOPLIST_FILE&quot;</span><br></pre></td></tr></table></figure>
+<p>&#x539F; <code>Build</code> = 1<br>&#x6DFB;&#x52A0;&#x811A;&#x672C;&#x8FD0;&#x884C;&#x540E; <code>Build</code> = 2</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2016/06/22/my-pch/" itemprop="url">
                   创建 PCH File
                 </a>
@@ -256,7 +365,7 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Posted on</span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
             <time itemprop="dateCreated" datetime="2016-06-22T23:01:47+08:00" content="2016-06-22">
               2016-06-22
             </time>
@@ -361,7 +470,7 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Posted on</span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
             <time itemprop="dateCreated" datetime="2016-06-22T21:58:54+08:00" content="2016-06-22">
               2016-06-22
             </time>
@@ -471,7 +580,7 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Posted on</span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
             <time itemprop="dateCreated" datetime="2016-06-08T00:29:10+08:00" content="2016-06-08">
               2016-06-08
             </time>
@@ -578,7 +687,7 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Posted on</span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
             <time itemprop="dateCreated" datetime="2016-06-04T13:30:48+08:00" content="2016-06-04">
               2016-06-04
             </time>
@@ -693,7 +802,7 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Posted on</span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
             <time itemprop="dateCreated" datetime="2016-06-03T00:11:37+08:00" content="2016-06-03">
               2016-06-03
             </time>
@@ -802,8 +911,8 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">5</span>
-              <span class="site-state-item-name">posts</span>
+              <span class="site-state-item-count">6</span>
+              <span class="site-state-item-name">Artikel</span>
             </a>
           </div>
 
@@ -812,8 +921,8 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">6</span>
-                <span class="site-state-item-name">tags</span>
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">Tags</span>
               </a>
             </div>
           
@@ -877,7 +986,7 @@
 </div>
 
 <div class="powered-by">
-  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
+  Erstellt mit  <a class="theme-link" href="http://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
