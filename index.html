@@ -243,6 +243,132 @@
             
               
                 
+                <a class="post-title-link" href="/2016/07/10/nscharacterset/" itemprop="url">
+                  NSCharacterSet
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time itemprop="dateCreated" datetime="2016-07-10T23:00:47+08:00" content="2016-07-10">
+              2016-07-10
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<p>&#x7528;&#x4E8E;&#x7B80;&#x5355;&#x8FC7;&#x6EE4;&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x7684;&#x4E00;&#x4E9B;&#x7279;&#x5B9A;&#x5B57;&#x7B26;&#x3002;</p>
+</blockquote>
+<h2 id="&#x53C2;&#x8003;&#x6587;&#x7AE0;"><a href="#&#x53C2;&#x8003;&#x6587;&#x7AE0;" class="headerlink" title="&#x53C2;&#x8003;&#x6587;&#x7AE0;"></a>&#x53C2;&#x8003;&#x6587;&#x7AE0;</h2><ul>
+<li><a href="http://ios.eezytutorials.com/nscharacterset-by-example.php#.V4JUF5N95TY" target="_blank" rel="external">NSCharacterSet by example
+</a></li>
+<li><a href="http://nshipster.cn/nscharacterset/" target="_blank" rel="external">NSCharacterSet</a></li>
+</ul>
+<h2 id="&#x65B9;&#x6CD5;&#x4E3E;&#x4F8B;"><a href="#&#x65B9;&#x6CD5;&#x4E3E;&#x4F8B;" class="headerlink" title="&#x65B9;&#x6CD5;&#x4E3E;&#x4F8B;"></a>&#x65B9;&#x6CD5;&#x4E3E;&#x4F8B;</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">// &#x63A7;&#x5236;&#x7B26; eg: \a</span><br><span class="line">+ (NSCharacterSet *)controlCharacterSet;</span><br><span class="line">// &#x9996;&#x5C3E;&#x7A7A;&#x683C;</span><br><span class="line">+ (NSCharacterSet *)whitespaceCharacterSet;</span><br><span class="line">// &#x9996;&#x5C3E;&#x7A7A;&#x683C;&#x548C;&#x6362;&#x884C;&#x7B26;</span><br><span class="line">+ (NSCharacterSet *)whitespaceAndNewlineCharacterSet;</span><br><span class="line">// &#x5341;&#x8FDB;&#x5236;&#x6570;&#x5B57;</span><br><span class="line">+ (NSCharacterSet *)decimalDigitCharacterSet;</span><br><span class="line">// &#x4E2D;&#x82F1;&#x6587;&#x5B57;</span><br><span class="line">+ (NSCharacterSet *)letterCharacterSet;</span><br><span class="line">// &#x9996;&#x4F4D;&#x5C0F;&#x5199;&#x5B57;&#x6BCD;</span><br><span class="line">+ (NSCharacterSet *)lowercaseLetterCharacterSet;</span><br><span class="line">// &#x9996;&#x4F4D;&#x5927;&#x5199;&#x5B57;&#x6BCD;</span><br><span class="line">+ (NSCharacterSet *)uppercaseLetterCharacterSet;</span><br><span class="line">// &#x975E;&#x57FA;&#x7840;</span><br><span class="line">+ (NSCharacterSet *)nonBaseCharacterSet;</span><br><span class="line">// &#x5B57;&#x6BCD;&#x6570;&#x5B57;</span><br><span class="line">+ (NSCharacterSet *)alphanumericCharacterSet;</span><br><span class="line">// &#x53EF;&#x5206;&#x89E3;</span><br><span class="line">+ (NSCharacterSet *)decomposableCharacterSet;</span><br><span class="line">// &#x975E;&#x6CD5;</span><br><span class="line">+ (NSCharacterSet *)illegalCharacterSet;</span><br><span class="line">// &#x6807;&#x70B9;</span><br><span class="line">+ (NSCharacterSet *)punctuationCharacterSet;</span><br><span class="line">// &#x5927;&#x5199;</span><br><span class="line">+ (NSCharacterSet *)capitalizedLetterCharacterSet;</span><br><span class="line">// &#x7B26;&#x53F7;</span><br><span class="line">+ (NSCharacterSet *)symbolCharacterSet;</span><br><span class="line">// &#x6362;&#x884C;&#x7B26; eg: \n</span><br><span class="line">+ (NSCharacterSet *)newlineCharacterSet NS_AVAILABLE(10_5, 2_0);</span><br></pre></td></tr></table></figure>
+<h3 id="controlCharacterSet"><a href="#controlCharacterSet" class="headerlink" title="controlCharacterSet"></a>controlCharacterSet</h3><p>Example</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">NSString *aString = @&quot;\a&quot;;</span><br><span class="line">NSLog(@&quot;aString.length = %@&quot;, @(aString.length));</span><br><span class="line">NSLog(@&quot;aString = %@&quot;, aString);</span><br><span class="line">NSMutableCharacterSet *characterSet = [[NSMutableCharacterSet alloc] init];</span><br><span class="line">[characterSet formUnionWithCharacterSet:[NSCharacterSet controlCharacterSet]];</span><br><span class="line">NSString *bString = [aString stringByTrimmingCharactersInSet:characterSet];</span><br></pre></td></tr></table></figure>
+<p>Output</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">2016-07-10 22:17:25.792 NSCharacterSet[11933:8254015] aString.length = 1</span><br><span class="line">2016-07-10 22:17:25.792 NSCharacterSet[11933:8254015] aString = </span><br><span class="line">2016-07-10 22:17:25.793 NSCharacterSet[11933:8254015] bString.length = 0</span><br><span class="line">2016-07-10 22:17:25.793 NSCharacterSet[11933:8254015] bString =</span><br></pre></td></tr></table></figure>
+<h3 id="whitespaceCharacterSet"><a href="#whitespaceCharacterSet" class="headerlink" title="whitespaceCharacterSet"></a>whitespaceCharacterSet</h3><p>Example</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">NSString *aString = @&quot;  Neil Zhou&apos;s  Blog &quot;;</span><br><span class="line">NSLog(@&quot;aString.length = %@&quot;, @(aString.length));</span><br><span class="line">NSLog(@&quot;aString = %@&quot;, aString);</span><br><span class="line">NSString *bString = [aString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];</span><br><span class="line">NSLog(@&quot;bString.length = %@&quot;, @(bString.length));</span><br><span class="line">NSLog(@&quot;bString = %@&quot;, bString);</span><br></pre></td></tr></table></figure>
+<p>Output</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">2016-07-10 22:22:26.900 NSCharacterSet[11964:8282126] aString.length = 20</span><br><span class="line">2016-07-10 22:22:26.902 NSCharacterSet[11964:8282126] aString =   Neil Zhou&apos;s  Blog </span><br><span class="line">2016-07-10 22:22:26.902 NSCharacterSet[11964:8282126] bString.length = 17</span><br><span class="line">2016-07-10 22:22:26.902 NSCharacterSet[11964:8282126] bString = Neil Zhou&apos;s  Blog</span><br></pre></td></tr></table></figure>
+<h3 id="lowercaseLetterCharacterSet"><a href="#lowercaseLetterCharacterSet" class="headerlink" title="lowercaseLetterCharacterSet"></a>lowercaseLetterCharacterSet</h3><p>Example</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">NSRange lowercaseCharRange = [@&quot;abc&quot; rangeOfCharacterFromSet:[NSCharacterSet lowercaseLetterCharacterSet]];</span><br><span class="line">NSLog(@&quot;%d&quot;, lowercaseCharRange.location!=NSNotFound);</span><br></pre></td></tr></table></figure>
+<p>Output</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2016-07-10 22:58:43.986 NSCharacterSet[12362:8503816] 1</span><br></pre></td></tr></table></figure>
+<h3 id="uppercaseLetterCharacterSet"><a href="#uppercaseLetterCharacterSet" class="headerlink" title="uppercaseLetterCharacterSet"></a>uppercaseLetterCharacterSet</h3><p>Example</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">NSString *string = @&quot;Talk is cheap, show me the code.&quot;;</span><br><span class="line">BOOL isUppercase = [[NSCharacterSet uppercaseLetterCharacterSet] characterIsMember:[string characterAtIndex:0]];</span><br><span class="line">NSLog(@&quot;%d&quot;, isUppercase);</span><br></pre></td></tr></table></figure>
+<p>Output</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2016-07-10 22:56:29.389 NSCharacterSet[12350:8488247] 1</span><br></pre></td></tr></table></figure>
+<h3 id="punctuationCharacterSet"><a href="#punctuationCharacterSet" class="headerlink" title="punctuationCharacterSet"></a>punctuationCharacterSet</h3><p>Example</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">unichar zyy_unichar1 = [@&quot;A,;&quot; characterAtIndex:0];</span><br><span class="line">unichar zyy_unichar2 = [@&quot;A,;&quot; characterAtIndex:1];</span><br><span class="line">unichar zyy_unichar3 = [@&quot;A,;&quot; characterAtIndex:2];</span><br><span class="line">NSCharacterSet *characterSet = [NSCharacterSet punctuationCharacterSet];</span><br><span class="line">NSLog(@&quot;%d&quot;,[characterSet characterIsMember:zyy_unichar1]);</span><br><span class="line">NSLog(@&quot;%d&quot;,[characterSet characterIsMember:zyy_unichar2]);</span><br><span class="line">NSLog(@&quot;%d&quot;,[characterSet characterIsMember:zyy_unichar3]);</span><br></pre></td></tr></table></figure>
+<p>Output</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2016-07-10 22:48:41.903 NSCharacterSet[12291:8434819] 0</span><br><span class="line">2016-07-10 22:48:41.904 NSCharacterSet[12291:8434819] 1</span><br><span class="line">2016-07-10 22:48:41.904 NSCharacterSet[12291:8434819] 1</span><br></pre></td></tr></table></figure>
+<hr>
+<blockquote>
+<p><em>&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;&#xFF0C;&#x4E0D;&#x80DC;&#x611F;&#x6FC0;&#xFF01;</em></p>
+</blockquote>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2016/06/25/xcode-build-version/" itemprop="url">
                   Xcode 自动填写 Version Build 脚本
                 </a>
@@ -303,6 +429,10 @@
 <h2 id="&#x81EA;&#x589E;&#x4E00;"><a href="#&#x81EA;&#x589E;&#x4E00;" class="headerlink" title="&#x81EA;&#x589E;&#x4E00;"></a>&#x81EA;&#x589E;&#x4E00;</h2><p>Run Script:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">buildNumber=$(/usr/libexec/PlistBuddy -c &quot;Print CFBundleVersion&quot; &quot;$INFOPLIST_FILE&quot;)</span><br><span class="line">buildNumber=$(($buildNumber + 1))</span><br><span class="line">/usr/libexec/PlistBuddy -c &quot;Set :CFBundleVersion $buildNumber&quot; &quot;$INFOPLIST_FILE&quot;</span><br></pre></td></tr></table></figure>
 <p>&#x539F; <code>Build</code> = 1<br>&#x6DFB;&#x52A0;&#x811A;&#x672C;&#x8FD0;&#x884C;&#x540E; <code>Build</code> = 2</p>
+<hr>
+<blockquote>
+<p><em>&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;&#xFF0C;&#x4E0D;&#x80DC;&#x611F;&#x6FC0;&#xFF01;</em></p>
+</blockquote>
 
           
         
@@ -408,6 +538,10 @@
 <li>&#x5982;&#x679C;&#x9879;&#x76EE;&#x540D;&#x4E2D;&#x5305;&#x542B;&#x4E2D;&#x6587;&#x5219;&#x5E94;&#x624B;&#x52A8;&#x586B;&#x5199;&#xFF0C;&#x9879;&#x76EE;&#x540D;&#x8981;&#x5C3D;&#x91CF;&#x89C4;&#x907F;&#x4E2D;&#x6587;</li>
 </ul>
 <p><img src="/2016/06/22/my-pch/setting-pch.png" alt="setting-pch"></p>
+<hr>
+<blockquote>
+<p><em>&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;&#xFF0C;&#x4E0D;&#x80DC;&#x611F;&#x6FC0;&#xFF01;</em></p>
+</blockquote>
 
           
         
@@ -518,6 +652,10 @@
 <li><a href="https://github.com/Coneboy-k/KKLog" target="_blank" rel="external">KKLog</a></li>
 <li><a href="https://github.com/CatchZeng/CATLog" target="_blank" rel="external">CATLog</a></li>
 </ul>
+<hr>
+<blockquote>
+<p><em>&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;&#xFF0C;&#x4E0D;&#x80DC;&#x611F;&#x6FC0;&#xFF01;</em></p>
+</blockquote>
 
           
         
@@ -911,7 +1049,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">6</span>
+              <span class="site-state-item-count">7</span>
               <span class="site-state-item-name">Artikel</span>
             </a>
           </div>
@@ -921,7 +1059,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">Tags</span>
               </a>
             </div>
