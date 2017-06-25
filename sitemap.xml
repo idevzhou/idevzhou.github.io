@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://devzhou.com/2016/07/10/nscharacterset/</loc>
+    <loc>http://devzhou.com/history/index.html</loc>
     
-    <lastmod>2017-06-25T01:49:07.000Z</lastmod>
+    <lastmod>2017-06-25T03:09:53.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://devzhou.com/about/index.html</loc>
     
-    <lastmod>2017-06-25T00:06:23.000Z</lastmod>
+    <lastmod>2017-06-25T03:08:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://devzhou.com/2016/07/10/nscharacterset/</loc>
+    
+    <lastmod>2017-06-25T01:49:07.000Z</lastmod>
     
   </url>
   
@@ -68,13 +75,6 @@
     <loc>http://devzhou.com/2017/01/25/ios-font/</loc>
     
     <lastmod>2017-06-24T09:42:04.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://devzhou.com/history/index.html</loc>
-    
-    <lastmod>2017-06-24T09:31:20.000Z</lastmod>
     
   </url>
   
