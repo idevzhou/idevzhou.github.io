@@ -3,6 +3,86 @@
 
 
     
+  <url>
+    <loc>http://devzhou.com/2016/06/25/xcode-build-version/</loc>
+    <lastmod>2017-06-25T12:09:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>Xcode 自动填写 Version Build 脚本</title>
+        <pubTime>2016-06-25T15:19:44.000Z</pubTime>
+        
+        <tag>Xcode</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://devzhou.com/2016/06/04/my-first-blog/</loc>
+    <lastmod>2017-06-25T12:08:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo Blog 诞生记录</title>
+        <pubTime>2016-06-04T05:30:48.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://devzhou.com/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://devzhou.com/2016/06/22/my-pch/</loc>
+    <lastmod>2017-06-25T12:08:04.000Z</lastmod>
+    <data>
+        <display>
+        <title>创建 PCH File</title>
+        <pubTime>2016-06-22T15:01:47.000Z</pubTime>
+        
+        <tag>PCH</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://devzhou.com/2017/06/25/20170625/</loc>
+    <lastmod>2017-06-25T12:07:08.000Z</lastmod>
+    <data>
+        <display>
+        <title>20170625</title>
+        <pubTime>2017-06-25T11:19:52.000Z</pubTime>
+        
+        <tag>Diary</tag>
+         
+         
+           
+             
+              <breadCrumb title="Diary" url="http://devzhou.com/categories/Diary/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
   <url>
@@ -66,26 +146,6 @@
 
     
   <url>
-    <loc>http://devzhou.com/2016/06/25/xcode-build-version/</loc>
-    <lastmod>2017-06-24T09:42:36.000Z</lastmod>
-    <data>
-        <display>
-        <title>Xcode 自动填写 Version Build 脚本</title>
-        <pubTime>2016-06-25T15:19:44.000Z</pubTime>
-        
-        <tag>Xcode</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://devzhou.com/2016/06/08/nstimer-block/</loc>
     <lastmod>2017-06-24T09:42:29.000Z</lastmod>
     <data>
@@ -94,26 +154,6 @@
         <pubTime>2016-06-07T16:29:10.000Z</pubTime>
         
         <tag>NSTimer</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://devzhou.com/2016/06/22/my-pch/</loc>
-    <lastmod>2017-06-24T09:42:21.000Z</lastmod>
-    <data>
-        <display>
-        <title>创建 PCH File</title>
-        <pubTime>2016-06-22T15:01:47.000Z</pubTime>
-        
-        <tag>PCH</tag>
          
          
            
@@ -139,26 +179,6 @@
            
              
               <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://devzhou.com/2016/06/04/my-first-blog/</loc>
-    <lastmod>2017-06-24T09:42:12.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo Blog 诞生记录</title>
-        <pubTime>2016-06-04T05:30:48.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://devzhou.com/categories/Hexo/"/>
           
         </display>
     </data>
