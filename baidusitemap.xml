@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>http://devzhou.com/2017/06/24/20170624/</loc>
+    <lastmod>2017-06-26T14:31:46.000Z</lastmod>
+    <data>
+        <display>
+        <title>20170624</title>
+        <pubTime>2017-06-24T09:57:49.000Z</pubTime>
+        
+        <tag>Diary</tag>
+         
+         
+           
+             
+              <breadCrumb title="Diary" url="http://devzhou.com/categories/Diary/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://devzhou.com/2017/06/26/20170626/</loc>
+    <lastmod>2017-06-26T14:31:31.000Z</lastmod>
+    <data>
+        <display>
+        <title>20170626</title>
+        <pubTime>2017-06-26T14:10:51.000Z</pubTime>
+        
+        <tag>Diary</tag>
+         
+         
+           
+             
+              <breadCrumb title="Diary" url="http://devzhou.com/categories/Diary/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://devzhou.com/2016/06/25/xcode-build-version/</loc>
     <lastmod>2017-06-25T12:09:14.000Z</lastmod>
     <data>
@@ -99,26 +139,6 @@
            
              
               <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://devzhou.com/2017/06/24/20170624/</loc>
-    <lastmod>2017-06-24T10:36:27.000Z</lastmod>
-    <data>
-        <display>
-        <title>20170624</title>
-        <pubTime>2017-06-24T09:57:49.000Z</pubTime>
-        
-        <tag>Diary</tag>
-         
-         
-           
-             
-              <breadCrumb title="Diary" url="http://devzhou.com/categories/Diary/"/>
           
         </display>
     </data>
