@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://devzhou.com/"/>
-  <updated>2017-06-27T15:45:35.000Z</updated>
+  <updated>2017-06-28T15:28:09.000Z</updated>
   <id>http://devzhou.com/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20170628</title>
+    <link href="http://devzhou.com/2017/06/28/20170628/"/>
+    <id>http://devzhou.com/2017/06/28/20170628/</id>
+    <published>2017-06-28T15:19:28.000Z</published>
+    <updated>2017-06-28T15:28:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>6:20 &#x8D77;&#x5E8A;&#xFF0C;&#x7EC3;&#x4E60; SwfitHomework Project03&#x3002;&#x661F;&#x671F;&#x4E09;&#xFF0C;&#x5168;&#x5BB6;&#x6EE1; 25 &#x9001; 10&#xFF0C;&#x5C31;&#x4E70;&#x4E86;&#x65E9;&#x996D;&#x548C;&#x4E2D;&#x996D;&#x3002;</p>
+<p>&#x767E;&#x8BCD;&#x65A9;&#xFF0C;&#x65A9; 30 &#x4E2A;&#x5355;&#x8BCD;&#x3002;&#x5B66;&#x4E60; UIStackView&#xFF0C;&#x5305;&#x62EC; Xib &#x548C; &#x7EAF;&#x4EE3;&#x7801;&#x7684;&#x7B80;&#x5355;&#x4F7F;&#x7528;&#x3002;</p>
+<p>&#x665A;&#x4E0A;&#xFF0C;&#x6E38;&#x4E86;&#x4F1A;&#x513F;&#x6CF3;&#xFF0C;&#x4ECA;&#x5929;&#x4EBA;&#x597D;&#x591A;&#x3002;&#x7EC3;&#x4E60; Project04&#xFF0C;&#x56F0;&#xFF0C;&#x7761;&#x89C9;&#x3002;</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;6:20 &amp;#x8D77;&amp;#x5E8A;&amp;#xFF0C;&amp;#x7EC3;&amp;#x4E60; SwfitHomework Project03&amp;#x3002;&amp;#x661F;&amp;#x671F;&amp;#x4E09;&amp;#xFF0C;&amp;#x5168;&amp;#x5BB6;&amp;#x6EE1; 25 
+    
+    </summary>
+    
+      <category term="Diary" scheme="http://devzhou.com/categories/Diary/"/>
+    
+    
+      <category term="Diary" scheme="http://devzhou.com/tags/Diary/"/>
+    
+  </entry>
   
   <entry>
     <title>20170627</title>
