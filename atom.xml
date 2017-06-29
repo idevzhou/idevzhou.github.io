@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://devzhou.com/"/>
-  <updated>2017-06-28T15:28:09.000Z</updated>
+  <updated>2017-06-29T15:34:23.000Z</updated>
   <id>http://devzhou.com/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20170629</title>
+    <link href="http://devzhou.com/2017/06/29/20170629/"/>
+    <id>http://devzhou.com/2017/06/29/20170629/</id>
+    <published>2017-06-29T15:28:45.000Z</published>
+    <updated>2017-06-29T15:34:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<ol>
+<li>SwiftHomework &#x5B8C;&#x6210;&#x5230; Project09&#x3002;</li>
+<li>&#x767E;&#x8BCD;&#x65A9; 30 &#x4E2A;&#xFF0C;&#x575A;&#x6301;&#x7684;&#x7B2C;&#x4E09;&#x5929;&#x3002;</li>
+<li>&#x5065;&#x8EAB;&#xFF0C;&#x4E3B;&#x7EC3;&#x80CC;&#xFF0C;&#x526F;&#x7EC3;&#x4E8C;&#x5934;&#x808C;&#xFF0C;&#x8DD1;&#x6B65; 35 &#x5206;&#x949F;&#x3002; </li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;SwiftHomework &amp;#x5B8C;&amp;#x6210;&amp;#x5230; Project09&amp;#x3002;&lt;/li&gt;
+&lt;li&gt;&amp;#x767E;&amp;#x8BCD;&amp;#x65A9; 30 &amp;#x4E2A;&amp;#xFF0C;&amp;#x575A;&amp;#x6301;&amp;#x76
+    
+    </summary>
+    
+      <category term="Diary" scheme="http://devzhou.com/categories/Diary/"/>
+    
+    
+      <category term="Diary" scheme="http://devzhou.com/tags/Diary/"/>
+    
+  </entry>
   
   <entry>
     <title>20170628</title>
