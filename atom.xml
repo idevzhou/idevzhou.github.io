@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://devzhou.com/"/>
-  <updated>2017-07-04T15:22:57.000Z</updated>
+  <updated>2017-07-10T15:15:03.000Z</updated>
   <id>http://devzhou.com/</id>
   
   <author>
@@ -14,6 +14,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>划重点 - 跳出面向对象思想（一）继承</title>
+    <link href="http://devzhou.com/2017/07/10/casa-oop-inherit/"/>
+    <id>http://devzhou.com/2017/07/10/casa-oop-inherit/</id>
+    <published>2017-07-10T14:42:51.000Z</published>
+    <updated>2017-07-10T15:15:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>&#x8BF4;&#x662F;&#x8BFB;&#x540E;&#x611F;&#xFF0C;&#x6839;&#x672C;&#x7B97;&#x4E0D;&#x4E0A;&#xFF0C;&#x5F53;&#x8BB0;&#x4E2A;&#x7B14;&#x8BB0;&#xFF0C;&#x5212;&#x4E2A;&#x91CD;&#x70B9;&#x5427;&#x3002;</p>
+</blockquote>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul>
+<li>Casa: <a href="https://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-yi-ji-cheng.html" target="_blank" rel="external">&#x8DF3;&#x51FA;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x601D;&#x60F3;(&#x4E00;) &#x7EE7;&#x627F;</a></li>
+</ul>
+<h1 id="&#x7EE7;&#x627F;"><a href="#&#x7EE7;&#x627F;" class="headerlink" title="&#x7EE7;&#x627F;"></a>&#x7EE7;&#x627F;</h1><p>&#x7EE7;&#x627F;&#x5BFC;&#x81F4;&#x7684;&#x6700;&#x5927;&#x7684;&#x4E00;&#x4E2A;&#x7279;&#x5F81;&#xFF1A;&#x9AD8;&#x8026;&#x5408;&#x3002;<br>&#x8026;&#x5408;&#x662F;&#x4E00;&#x4E2A;&#x7279;&#x5F81;&#xFF0C;<strong>&#x5F53;&#x8026;&#x5408;&#x6210;&#x4E3A;&#x9700;&#x6C42;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8026;&#x5408;&#x5C31;&#x4E0D;&#x662F;&#x7F3A;&#x9677;&#x4E86;&#x3002;</strong><br>&#x7EE7;&#x627F;&#x662F;&#x7D27;&#x8026;&#x5408;&#x7684;&#x4E00;&#x79CD;&#x6A21;&#x5F0F;&#xFF0C;&#x4E3B;&#x8981;&#x7684;&#x4F53;&#x73B0;&#x5C31;&#x662F;&#x5728;&#x4E8E;&#x7275;&#x4E00;&#x53D1;&#x52A8;&#x5168;&#x8EAB;&#x3002;</p>
+<h2 id="&#x89E3;&#x51B3;&#x65B9;&#x6848;"><a href="#&#x89E3;&#x51B3;&#x65B9;&#x6848;" class="headerlink" title="&#x89E3;&#x51B3;&#x65B9;&#x6848;"></a>&#x89E3;&#x51B3;&#x65B9;&#x6848;</h2><p>&#x7528;<strong>&#x7EC4;&#x5408;</strong>&#x66FF;&#x4EE3;&#x7EE7;&#x627F;&#x3002;<br>&#x5927;&#x90E8;&#x5206;&#x6211;&#x4EEC;&#x901A;&#x8FC7;&#x4EE3;&#x7801;&#x590D;&#x7528;&#x6765;&#x9009;&#x62E9;&#x7EE7;&#x627F;&#x7684;&#x60C5;&#x51B5;&#xFF0C;&#x5176;&#x5B9E;&#x90FD;&#x662F;&#x53D8;&#x6210;&#x7EC4;&#x5408;&#x6BD4;&#x8F83;&#x597D;&#x3002;</p>
+<h2 id="&#x7EE7;&#x627F;&#x4F7F;&#x7528;"><a href="#&#x7EE7;&#x627F;&#x4F7F;&#x7528;" class="headerlink" title="&#x7EE7;&#x627F;&#x4F7F;&#x7528;"></a>&#x7EE7;&#x627F;&#x4F7F;&#x7528;</h2><h3 id="e-g"><a href="#e-g" class="headerlink" title="e.g."></a>e.g.</h3><figure class="highlight xl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>.</span><br><span class="line">O<span class="function"><span class="title">bject</span> -&gt;</span> Model</span><br><span class="line">O<span class="function"><span class="title">bject</span> -&gt;</span> View</span><br><span class="line">O<span class="function"><span class="title">bject</span> -&gt;</span> Controller</span><br><span class="line"><span class="number">2</span>.</span><br><span class="line">A<span class="function"><span class="title">piManager</span> -&gt;</span> DetailManager</span><br><span class="line">A<span class="function"><span class="title">piManager</span> -&gt;</span> ListManager</span><br><span class="line">A<span class="function"><span class="title">piManager</span> -&gt;</span> CityManager</span><br></pre></td></tr></table></figure>
+<h3 id="1-&#x7236;&#x7C7B;&#x53EA;&#x662F;&#x7ED9;&#x5B50;&#x7C7B;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#xFF0C;&#x5E76;&#x4E0D;&#x6D89;&#x53CA;&#x5B50;&#x7C7B;&#x7684;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x3002;"><a href="#1-&#x7236;&#x7C7B;&#x53EA;&#x662F;&#x7ED9;&#x5B50;&#x7C7B;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#xFF0C;&#x5E76;&#x4E0D;&#x6D89;&#x53CA;&#x5B50;&#x7C7B;&#x7684;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x3002;" class="headerlink" title="1. &#x7236;&#x7C7B;&#x53EA;&#x662F;&#x7ED9;&#x5B50;&#x7C7B;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#xFF0C;&#x5E76;&#x4E0D;&#x6D89;&#x53CA;&#x5B50;&#x7C7B;&#x7684;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x3002;"></a>1. &#x7236;&#x7C7B;&#x53EA;&#x662F;&#x7ED9;&#x5B50;&#x7C7B;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#xFF0C;&#x5E76;&#x4E0D;&#x6D89;&#x53CA;&#x5B50;&#x7C7B;&#x7684;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x3002;</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span><br><span class="line"></span>Object &#x5E76;&#x4E0D;&#x5F71;&#x54CD; Model, View, Controller &#x7684;&#x6267;&#x884C;&#x903B;&#x8F91;&#x548C;&#x4E1A;&#x52A1;</span><br><span class="line">Object &#x4E3A;&#x5B50;&#x7C7B;&#x63D0;&#x4F9B;&#x57FA;&#x7840;&#x670D;&#x52A1;&#xFF0C;&#x4F8B;&#x5982;&#x5185;&#x5B58;&#x8BA1;&#x6570;&#x7B49;</span><br><span class="line"><span class="bullet">2.</span><br><span class="line"></span>ApiManager &#x5E76;&#x4E0D;&#x5F71;&#x54CD;&#x5176;&#x4ED6;&#x7684; Manager</span><br><span class="line">ApiManager &#x53EA;&#x662F;&#x7ED9;&#x6D3E;&#x751F;&#x7684; Manager &#x63D0;&#x4F9B;&#x670D;&#x52A1;&#x800C;&#x5DF2;&#xFF0C;ApiManager &#x505A;&#x7684;&#x53EA;&#x662F;&#x5206;&#x5185;&#x7684;&#x4E8B;&#xFF0C;&#x4E0D;&#x53C2;&#x4E0E;&#x5B50;&#x7C7B;&#x505A;&#x7684;&#x4E8B;&#x60C5;</span><br></pre></td></tr></table></figure>
+<h3 id="2-&#x5C42;&#x7EA7;&#x5173;&#x7CFB;&#x660E;&#x663E;&#xFF0C;&#x529F;&#x80FD;&#x5212;&#x5206;&#x6E05;&#x6670;&#xFF0C;&#x7236;&#x7C7B;&#x548C;&#x5B50;&#x7C7B;&#x5404;&#x505A;&#x5404;&#x7684;&#x3002;"><a href="#2-&#x5C42;&#x7EA7;&#x5173;&#x7CFB;&#x660E;&#x663E;&#xFF0C;&#x529F;&#x80FD;&#x5212;&#x5206;&#x6E05;&#x6670;&#xFF0C;&#x7236;&#x7C7B;&#x548C;&#x5B50;&#x7C7B;&#x5404;&#x505A;&#x5404;&#x7684;&#x3002;" class="headerlink" title="2. &#x5C42;&#x7EA7;&#x5173;&#x7CFB;&#x660E;&#x663E;&#xFF0C;&#x529F;&#x80FD;&#x5212;&#x5206;&#x6E05;&#x6670;&#xFF0C;&#x7236;&#x7C7B;&#x548C;&#x5B50;&#x7C7B;&#x5404;&#x505A;&#x5404;&#x7684;&#x3002;"></a>2. &#x5C42;&#x7EA7;&#x5173;&#x7CFB;&#x660E;&#x663E;&#xFF0C;&#x529F;&#x80FD;&#x5212;&#x5206;&#x6E05;&#x6670;&#xFF0C;&#x7236;&#x7C7B;&#x548C;&#x5B50;&#x7C7B;&#x5404;&#x505A;&#x5404;&#x7684;&#x3002;</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span><br><span class="line"></span>Object &#x5E76;&#x4E0D;&#x53C2;&#x4E0E; MVC &#x7684;&#x7BA1;&#x7406;&#x4E2D;&#xFF0C;&#x90A3;&#x4E9B;&#x90FD;&#x53EA;&#x662F;&#x5404;&#x81EA;&#x6D3E;&#x751F;&#x7C7B;&#x81EA;&#x5DF1;&#x8981;&#x5904;&#x7406;&#x7684;&#x4E8B;&#x60C5;</span><br><span class="line"><span class="bullet">2.</span><br><span class="line"></span>DetailManager ListManager CityManager &#x90FD;&#x53EA;&#x662F;&#x5904;&#x7406;&#x5404;&#x81EA;&#x4E1A;&#x52A1;&#x7684;&#x5BF9;&#x8C61;</span><br><span class="line">ApiManager &#x5E76;&#x4E0D;&#x5E94;&#x8BE5;&#x6D89;&#x8DB3;&#x5BF9;&#x5E94;&#x7684;&#x4E1A;&#x52A1;</span><br></pre></td></tr></table></figure>
+<h3 id="3-&#x7236;&#x7C7B;&#x7684;&#x6240;&#x6709;&#x53D8;&#x5316;&#xFF0C;&#x90FD;&#x9700;&#x8981;&#x5728;&#x5B50;&#x7C7B;&#x4E2D;&#x4F53;&#x73B0;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x6B64;&#x65F6;&#x8026;&#x5408;&#x5DF2;&#x7ECF;&#x6210;&#x4E3A;&#x9700;&#x6C42;&#x3002;"><a href="#3-&#x7236;&#x7C7B;&#x7684;&#x6240;&#x6709;&#x53D8;&#x5316;&#xFF0C;&#x90FD;&#x9700;&#x8981;&#x5728;&#x5B50;&#x7C7B;&#x4E2D;&#x4F53;&#x73B0;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x6B64;&#x65F6;&#x8026;&#x5408;&#x5DF2;&#x7ECF;&#x6210;&#x4E3A;&#x9700;&#x6C42;&#x3002;" class="headerlink" title="3. &#x7236;&#x7C7B;&#x7684;&#x6240;&#x6709;&#x53D8;&#x5316;&#xFF0C;&#x90FD;&#x9700;&#x8981;&#x5728;&#x5B50;&#x7C7B;&#x4E2D;&#x4F53;&#x73B0;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x6B64;&#x65F6;&#x8026;&#x5408;&#x5DF2;&#x7ECF;&#x6210;&#x4E3A;&#x9700;&#x6C42;&#x3002;"></a>3. &#x7236;&#x7C7B;&#x7684;&#x6240;&#x6709;&#x53D8;&#x5316;&#xFF0C;&#x90FD;&#x9700;&#x8981;&#x5728;&#x5B50;&#x7C7B;&#x4E2D;&#x4F53;&#x73B0;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x6B64;&#x65F6;&#x8026;&#x5408;&#x5DF2;&#x7ECF;&#x6210;&#x4E3A;&#x9700;&#x6C42;&#x3002;</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span><br><span class="line"></span>Object &#x5BF9;&#x7C7B;&#x7684;&#x63CF;&#x8FF0;&#xFF0C;&#x5BF9;&#x5185;&#x5B58;&#x5F15;&#x7528;&#x7684;&#x8BA1;&#x6570;&#x65B9;&#x5F0F;&#x7B49;&#xFF0C;&#x90FD;&#x662F;&#x666E;&#x904D;&#x5F71;&#x54CD;&#x6D3E;&#x751F;&#x7C7B;&#x7684;</span><br><span class="line"><span class="bullet">2.</span><br><span class="line"></span>ApiManager &#x4E2D;&#x5BF9;&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;&#x7684;&#x53D1;&#x8D77;&#xFF0C;&#x7F51;&#x7EDC;&#x72B6;&#x6001;&#x7684;&#x5224;&#x65AD;&#xFF0C;&#x662F;&#x6240;&#x6709;&#x6D3E;&#x751F;&#x7C7B;&#x90FD;&#x9700;&#x8981;&#x7684;</span><br></pre></td></tr></table></figure>
+<p>&#x6B64;&#x65F6;&#xFF0C;&#x7275;&#x4E00;&#x53D1;&#x52A8;&#x5168;&#x8EAB;&#x5C31;&#x6210;&#x4E3A;&#x4E86;&#x9700;&#x6C42;&#xFF0C;&#x662F;&#x9002;&#x5408;&#x7EE7;&#x627F;&#x7684;&#x3002;</p>
+<h2 id="&#x603B;&#x7ED3;"><a href="#&#x603B;&#x7ED3;" class="headerlink" title="&#x603B;&#x7ED3;"></a>&#x603B;&#x7ED3;</h2><p><strong>&#x4E07;&#x4E0D;&#x5F97;&#x5DF2;&#x4E0D;&#x8981;&#x7528;&#x7EE7;&#x627F;&#xFF0C;&#x4F18;&#x5148;&#x8003;&#x8651;&#x7EC4;&#x5408;&#x3002;</strong></p>
+<ol>
+<li>&#x8003;&#x8651;&#x4EE5;&#x4E0A; 3 &#x70B9;&#x8981;&#x7D20;&#x662F;&#x5426;&#x7B26;&#x5408;&#xFF0C;&#x624D;&#x80FD;&#x51B3;&#x5B9A;&#x662F;&#x5426;&#x4F7F;&#x7528;&#x7EE7;&#x627F;&#x3002;</li>
+<li>&#x5F53;&#x4F60;&#x53D1;&#x73B0;&#x4F60;&#x7684;&#x7EE7;&#x627F;&#x8D85;&#x8FC7; 2 &#x5C42;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F60;&#x5C31;&#x8981;&#x597D;&#x597D;&#x7387;&#x662F;&#x5426;&#x8FD9;&#x4E2A;&#x7EE7;&#x627F;&#x7684;&#x65B9;&#x6848;&#x4E86;&#xFF0C;&#x7B2C;&#x4E09;&#x5C42;&#x7EE7;&#x627F;&#x6B63;&#x662F;&#x6EE5;&#x7528;&#x7684;&#x5F00;&#x7AEF;&#x3002;</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;&amp;#x8BF4;&amp;#x662F;&amp;#x8BFB;&amp;#x540E;&amp;#x611F;&amp;#xFF0C;&amp;#x6839;&amp;#x672C;&amp;#x7B97;&amp;#x4E0D;&amp;#x4E0A;&amp;#xFF0C;&amp;#x5F53;&amp;#x8BB0;&amp;#x4E2A;&amp;#x7
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://devzhou.com/categories/iOS/"/>
+    
+    
+      <category term="OOP" scheme="http://devzhou.com/tags/OOP/"/>
+    
+  </entry>
   
   <entry>
     <title>20170704</title>
