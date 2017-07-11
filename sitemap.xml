@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://devzhou.com/2017/07/12/casa-oop-encapsulation/</loc>
+    
+    <lastmod>2017-07-11T23:48:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://devzhou.com/2017/07/11/casa-oop-polymorphism/</loc>
     
     <lastmod>2017-07-11T15:10:49.000Z</lastmod>
