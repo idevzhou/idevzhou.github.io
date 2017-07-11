@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://devzhou.com/2017/07/11/casa-oop-polymorphism/</loc>
+    <lastmod>2017-07-11T15:01:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>笔记 - 跳出面向对象思想(二) 多态</title>
+        <pubTime>2017-07-11T14:16:13.000Z</pubTime>
+        
+        <tag>OOP</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://devzhou.com/2017/07/10/casa-oop-inherit/</loc>
     <lastmod>2017-07-10T15:25:21.000Z</lastmod>
     <data>
