@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://devzhou.com/"/>
-  <updated>2017-07-11T15:01:00.000Z</updated>
+  <updated>2017-07-11T15:02:51.000Z</updated>
   <id>http://devzhou.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>笔记 - 跳出面向对象思想(二) 多态</title>
+    <title>笔记 - 跳出面向对象思想 (二) 多态</title>
     <link href="http://devzhou.com/2017/07/11/casa-oop-polymorphism/"/>
     <id>http://devzhou.com/2017/07/11/casa-oop-polymorphism/</id>
     <published>2017-07-11T14:16:13.000Z</published>
-    <updated>2017-07-11T15:01:00.000Z</updated>
+    <updated>2017-07-11T15:02:51.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>&#x8BF4;&#x662F;&#x8BFB;&#x540E;&#x611F;&#xFF0C;&#x6839;&#x672C;&#x7B97;&#x4E0D;&#x4E0A;&#xFF0C;&#x5F53;&#x8BB0;&#x4E2A;&#x7B14;&#x8BB0;&#xFF0C;&#x5212;&#x4E2A;&#x91CD;&#x70B9;&#x5427;&#x3002;</p>
