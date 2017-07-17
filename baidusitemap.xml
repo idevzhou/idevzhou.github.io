@@ -5,10 +5,10 @@
     
   <url>
     <loc>http://devzhou.com/2017/07/12/casa-oop-encapsulation/</loc>
-    <lastmod>2017-07-11T23:48:46.000Z</lastmod>
+    <lastmod>2017-07-17T23:23:51.000Z</lastmod>
     <data>
         <display>
-        <title>笔记 - 跳出面向对象思想（三）封装</title>
+        <title>笔记「跳出面向对象思想(三) 封装」</title>
         <pubTime>2017-07-11T23:16:44.000Z</pubTime>
         
         <tag>OOP</tag>
@@ -24,11 +24,31 @@
 
     
   <url>
-    <loc>http://devzhou.com/2017/07/11/casa-oop-polymorphism/</loc>
-    <lastmod>2017-07-11T15:10:49.000Z</lastmod>
+    <loc>http://devzhou.com/2017/07/10/casa-oop-inherit/</loc>
+    <lastmod>2017-07-17T23:23:37.000Z</lastmod>
     <data>
         <display>
-        <title>笔记 - 跳出面向对象思想（二）多态</title>
+        <title>笔记「跳出面向对象思想(一) 继承」</title>
+        <pubTime>2017-07-10T14:42:51.000Z</pubTime>
+        
+        <tag>OOP</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://devzhou.com/2017/07/11/casa-oop-polymorphism/</loc>
+    <lastmod>2017-07-17T23:23:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>笔记「跳出面向对象思想(二) 多态」</title>
         <pubTime>2017-07-11T14:16:13.000Z</pubTime>
         
         <tag>OOP</tag>
@@ -44,14 +64,14 @@
 
     
   <url>
-    <loc>http://devzhou.com/2017/07/10/casa-oop-inherit/</loc>
-    <lastmod>2017-07-10T15:25:21.000Z</lastmod>
+    <loc>http://devzhou.com/2017/07/18/casa-ios-architecture-openings/</loc>
+    <lastmod>2017-07-17T23:21:55.000Z</lastmod>
     <data>
         <display>
-        <title>笔记 - 跳出面向对象思想（一）继承</title>
-        <pubTime>2017-07-10T14:42:51.000Z</pubTime>
+        <title>笔记「iOS应用架构谈 开篇」</title>
+        <pubTime>2017-07-17T23:02:56.000Z</pubTime>
         
-        <tag>OOP</tag>
+        <tag>Architecture</tag>
          
          
            
