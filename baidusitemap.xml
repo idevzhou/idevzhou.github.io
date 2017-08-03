@@ -4,14 +4,14 @@
 
     
   <url>
-    <loc>http://devzhou.com/2017/07/29/casa-responder-chain/</loc>
-    <lastmod>2017-07-29T12:20:36.000Z</lastmod>
+    <loc>http://devzhou.com/2017/07/19/casa-ios-architecture-view/</loc>
+    <lastmod>2017-08-03T00:24:29.000Z</lastmod>
     <data>
         <display>
-        <title>笔记「一种基于ResponderChain的对象交互方式」</title>
-        <pubTime>2017-07-29T11:08:24.000Z</pubTime>
+        <title>笔记「iOS应用架构谈 view层的组织和调用方案」</title>
+        <pubTime>2017-07-19T00:10:20.000Z</pubTime>
         
-        <tag>Responder Chain</tag>
+        <tag>Architecture</tag>
          
          
            
@@ -24,14 +24,14 @@
 
     
   <url>
-    <loc>http://devzhou.com/2017/07/19/casa-ios-architecture-view/</loc>
-    <lastmod>2017-07-19T00:14:54.000Z</lastmod>
+    <loc>http://devzhou.com/2017/07/29/casa-responder-chain/</loc>
+    <lastmod>2017-07-29T12:20:36.000Z</lastmod>
     <data>
         <display>
-        <title>笔记「iOS应用架构谈 view层的组织和调用方案」</title>
-        <pubTime>2017-07-19T00:10:20.000Z</pubTime>
+        <title>笔记「一种基于ResponderChain的对象交互方式」</title>
+        <pubTime>2017-07-29T11:08:24.000Z</pubTime>
         
-        <tag>Architecture</tag>
+        <tag>Responder Chain</tag>
          
          
            

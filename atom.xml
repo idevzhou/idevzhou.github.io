@@ -81,13 +81,13 @@
     <link href="http://devzhou.com/2017/07/19/casa-ios-architecture-view/"/>
     <id>http://devzhou.com/2017/07/19/casa-ios-architecture-view/</id>
     <published>2017-07-19T00:10:20.000Z</published>
-    <updated>2017-07-19T00:14:54.000Z</updated>
+    <updated>2017-08-03T00:24:29.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>&#x8BF4;&#x662F;&#x8BFB;&#x540E;&#x611F;&#xFF0C;&#x6839;&#x672C;&#x7B97;&#x4E0D;&#x4E0A;&#xFF0C;&#x5F53;&#x8BB0;&#x4E2A;&#x7B14;&#x8BB0;&#xFF0C;&#x5212;&#x4E2A;&#x91CD;&#x70B9;&#x5427;&#x3002;</p>
 </blockquote>
 <h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul>
-<li>Casa: <a href="https://casatwy.com/iosying-yong-jia-gou-tan-viewceng-de-zu-zhi-he-diao-yong-fang-an.html" target="_blank" rel="external">iOS&#x5E94;&#x7528;&#x67B6;&#x6784;&#x8C08; view&#x5C42;&#x7684;&#x7EC4;&#x7EC7;&#x548C;&#x8C03;&#x7528;&#x65B9;&#x6848;&#x300D;</a></li>
+<li>Casa: <a href="https://casatwy.com/iosying-yong-jia-gou-tan-viewceng-de-zu-zhi-he-diao-yong-fang-an.html" target="_blank" rel="external">iOS&#x5E94;&#x7528;&#x67B6;&#x6784;&#x8C08; view&#x5C42;&#x7684;&#x7EC4;&#x7EC7;&#x548C;&#x8C03;&#x7528;&#x65B9;&#x6848;</a></li>
 </ul>
 <h1 id="&#x524D;&#x8A00;"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</h1><p>View &#x5C42;&#x7684;&#x67B6;&#x6784;&#x4E00;&#x65E6;&#x5B9E;&#x73B0;&#x6216;&#x8005;&#x5B9A;&#x578B;&#xFF0C;&#x53D1;&#x7248;&#x4E4B;&#x540E;&#x53EF;&#x4FEE;&#x6539;&#x7684;&#x4F59;&#x5730;&#x5C31;&#x5DF2;&#x7ECF;&#x975E;&#x5E38;&#x4E4B;&#x5C0F;&#x4E86;&#x3002;</p>
 <h2 id="View-&#x5C42;&#x67B6;&#x6784;&#x5E08;&#x5F71;&#x54CD;&#x4E1A;&#x52A1;&#x8FED;&#x4EE3;&#x5468;&#x671F;&#x7684;&#x56E0;&#x7D20;&#x4E4B;&#x4E00;"><a href="#View-&#x5C42;&#x67B6;&#x6784;&#x5E08;&#x5F71;&#x54CD;&#x4E1A;&#x52A1;&#x8FED;&#x4EE3;&#x5468;&#x671F;&#x7684;&#x56E0;&#x7D20;&#x4E4B;&#x4E00;" class="headerlink" title="View &#x5C42;&#x67B6;&#x6784;&#x5E08;&#x5F71;&#x54CD;&#x4E1A;&#x52A1;&#x8FED;&#x4EE3;&#x5468;&#x671F;&#x7684;&#x56E0;&#x7D20;&#x4E4B;&#x4E00;"></a>View &#x5C42;&#x67B6;&#x6784;&#x5E08;&#x5F71;&#x54CD;&#x4E1A;&#x52A1;&#x8FED;&#x4EE3;&#x5468;&#x671F;&#x7684;&#x56E0;&#x7D20;&#x4E4B;&#x4E00;</h2><p>&#x4E0D;&#x591F;&#x597D;&#x7684; View &#x5C42;&#x67B6;&#x6784;&#xFF0C;&#x4E3B;&#x8981;&#x539F;&#x56E0;</p>
