@@ -4,19 +4,183 @@
 
     
   <url>
-    <loc>http://devzhou.com/2018/01/09/2017-review-1/</loc>
-    <lastmod>2018-01-19T14:23:55.961Z</lastmod>
+    <loc>http://devzhou.com/2017/07/29/casa-responder-chain/</loc>
+    <lastmod>2018-01-19T14:53:02.499Z</lastmod>
     <data>
         <display>
-        <title>Objective-C Review 1 - Block</title>
-        <pubTime>2018-01-09T13:31:40.000Z</pubTime>
+        <title>笔记「一种基于ResponderChain的对象交互方式」</title>
+        <pubTime>2017-07-29T11:08:24.000Z</pubTime>
         
-        <tag>Block</tag>
+        <tag>Responder Chain</tag>
          
          
            
              
               <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+          
+             
+              <breadCrumb title="Note" url="http://devzhou.com/categories/iOS/Note/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://devzhou.com/2017/07/11/casa-oop-polymorphism/</loc>
+    <lastmod>2018-01-19T14:52:56.116Z</lastmod>
+    <data>
+        <display>
+        <title>笔记「跳出面向对象思想(二) 多态」</title>
+        <pubTime>2017-07-11T14:16:13.000Z</pubTime>
+        
+        <tag>OOP</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+          
+             
+              <breadCrumb title="Note" url="http://devzhou.com/categories/iOS/Note/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://devzhou.com/2017/07/10/casa-oop-inherit/</loc>
+    <lastmod>2018-01-19T14:52:51.391Z</lastmod>
+    <data>
+        <display>
+        <title>笔记「跳出面向对象思想(一) 继承」</title>
+        <pubTime>2017-07-10T14:42:51.000Z</pubTime>
+        
+        <tag>OOP</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+          
+             
+              <breadCrumb title="Note" url="http://devzhou.com/categories/iOS/Note/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://devzhou.com/2017/07/12/casa-oop-encapsulation/</loc>
+    <lastmod>2018-01-19T14:52:46.025Z</lastmod>
+    <data>
+        <display>
+        <title>笔记「跳出面向对象思想(三) 封装」</title>
+        <pubTime>2017-07-11T23:16:44.000Z</pubTime>
+        
+        <tag>OOP</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+          
+             
+              <breadCrumb title="Note" url="http://devzhou.com/categories/iOS/Note/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://devzhou.com/2017/07/19/casa-ios-architecture-view/</loc>
+    <lastmod>2018-01-19T14:52:37.206Z</lastmod>
+    <data>
+        <display>
+        <title>笔记「iOS应用架构谈 view层的组织和调用方案」</title>
+        <pubTime>2017-07-19T00:10:20.000Z</pubTime>
+        
+        <tag>Architecture</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+          
+             
+              <breadCrumb title="Note" url="http://devzhou.com/categories/iOS/Note/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://devzhou.com/2017/07/18/casa-ios-architecture-openings/</loc>
+    <lastmod>2018-01-19T14:52:31.952Z</lastmod>
+    <data>
+        <display>
+        <title>笔记「iOS应用架构谈 开篇」</title>
+        <pubTime>2017-07-17T23:02:56.000Z</pubTime>
+        
+        <tag>Architecture</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+          
+             
+              <breadCrumb title="Note" url="http://devzhou.com/categories/iOS/Note/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://devzhou.com/2018/01/18/2017-review-7/</loc>
+    <lastmod>2018-01-19T14:51:44.451Z</lastmod>
+    <data>
+        <display>
+        <title>Objective-C Review 7 - KVO</title>
+        <pubTime>2018-01-18T14:00:37.000Z</pubTime>
+        
+        <tag>KVO</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+          
+             
+              <breadCrumb title="Objective-C" url="http://devzhou.com/categories/iOS/Objective-C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://devzhou.com/2018/01/16/2017-review-6/</loc>
+    <lastmod>2018-01-19T14:51:39.829Z</lastmod>
+    <data>
+        <display>
+        <title>Objective-C Review 6 - KVC</title>
+        <pubTime>2018-01-16T14:56:49.000Z</pubTime>
+        
+        <tag>KVC</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+          
+             
+              <breadCrumb title="Objective-C" url="http://devzhou.com/categories/iOS/Objective-C/"/>
           
         </display>
     </data>
@@ -25,7 +189,7 @@
     
   <url>
     <loc>http://devzhou.com/2018/01/13/2017-review-5/</loc>
-    <lastmod>2018-01-18T14:07:46.635Z</lastmod>
+    <lastmod>2018-01-19T14:51:33.216Z</lastmod>
     <data>
         <display>
         <title>Objective-C Review 5 - Class & Object</title>
@@ -40,6 +204,9 @@
              
               <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
           
+             
+              <breadCrumb title="Objective-C" url="http://devzhou.com/categories/iOS/Objective-C/"/>
+          
         </display>
     </data>
     </url>
@@ -47,7 +214,7 @@
     
   <url>
     <loc>http://devzhou.com/2018/01/11/2017-review-4/</loc>
-    <lastmod>2018-01-18T14:07:18.319Z</lastmod>
+    <lastmod>2018-01-19T14:51:26.090Z</lastmod>
     <data>
         <display>
         <title>Objective-C Review 4 - UIApplicationDelegate</title>
@@ -60,6 +227,9 @@
              
               <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
           
+             
+              <breadCrumb title="Objective-C" url="http://devzhou.com/categories/iOS/Objective-C/"/>
+          
         </display>
     </data>
     </url>
@@ -67,7 +237,7 @@
     
   <url>
     <loc>http://devzhou.com/2018/01/11/2017-review-3/</loc>
-    <lastmod>2018-01-18T14:06:39.976Z</lastmod>
+    <lastmod>2018-01-19T14:51:21.469Z</lastmod>
     <data>
         <display>
         <title>Objective-C Review 3 - Category</title>
@@ -80,6 +250,9 @@
              
               <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
           
+             
+              <breadCrumb title="Objective-C" url="http://devzhou.com/categories/iOS/Objective-C/"/>
+          
         </display>
     </data>
     </url>
@@ -87,7 +260,7 @@
     
   <url>
     <loc>http://devzhou.com/2018/01/11/2017-review-2/</loc>
-    <lastmod>2018-01-18T14:06:14.879Z</lastmod>
+    <lastmod>2018-01-19T14:51:13.819Z</lastmod>
     <data>
         <display>
         <title>Objective-C Review 2 - GCD</title>
@@ -100,25 +273,8 @@
              
               <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://devzhou.com/2018/01/16/2017-review-6/</loc>
-    <lastmod>2018-01-18T14:02:52.588Z</lastmod>
-    <data>
-        <display>
-        <title>Objective-C Review 6 - KVC</title>
-        <pubTime>2018-01-16T14:56:49.000Z</pubTime>
-        
-        <tag>KVC</tag>
-         
-         
-           
              
-              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+              <breadCrumb title="Objective-C" url="http://devzhou.com/categories/iOS/Objective-C/"/>
           
         </display>
     </data>
@@ -126,139 +282,22 @@
 
     
   <url>
-    <loc>http://devzhou.com/2018/01/18/2017-review-7/</loc>
-    <lastmod>2018-01-18T14:02:42.259Z</lastmod>
+    <loc>http://devzhou.com/2018/01/09/2017-review-1/</loc>
+    <lastmod>2018-01-19T14:51:04.160Z</lastmod>
     <data>
         <display>
-        <title>Objective-C Review 7 - KVO</title>
-        <pubTime>2018-01-18T14:00:37.000Z</pubTime>
+        <title>Objective-C Review 1 - Block</title>
+        <pubTime>2018-01-09T13:31:40.000Z</pubTime>
         
-        <tag>KVO</tag>
+        <tag>Block</tag>
          
          
            
              
               <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://devzhou.com/2017/07/19/casa-ios-architecture-view/</loc>
-    <lastmod>2017-08-03T00:24:29.000Z</lastmod>
-    <data>
-        <display>
-        <title>笔记「iOS应用架构谈 view层的组织和调用方案」</title>
-        <pubTime>2017-07-19T00:10:20.000Z</pubTime>
-        
-        <tag>Architecture</tag>
-         
-         
-           
              
-              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://devzhou.com/2017/07/29/casa-responder-chain/</loc>
-    <lastmod>2017-07-29T12:20:36.000Z</lastmod>
-    <data>
-        <display>
-        <title>笔记「一种基于ResponderChain的对象交互方式」</title>
-        <pubTime>2017-07-29T11:08:24.000Z</pubTime>
-        
-        <tag>Responder Chain</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://devzhou.com/2017/07/12/casa-oop-encapsulation/</loc>
-    <lastmod>2017-07-17T23:23:51.000Z</lastmod>
-    <data>
-        <display>
-        <title>笔记「跳出面向对象思想(三) 封装」</title>
-        <pubTime>2017-07-11T23:16:44.000Z</pubTime>
-        
-        <tag>OOP</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://devzhou.com/2017/07/10/casa-oop-inherit/</loc>
-    <lastmod>2017-07-17T23:23:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>笔记「跳出面向对象思想(一) 继承」</title>
-        <pubTime>2017-07-10T14:42:51.000Z</pubTime>
-        
-        <tag>OOP</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://devzhou.com/2017/07/11/casa-oop-polymorphism/</loc>
-    <lastmod>2017-07-17T23:23:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>笔记「跳出面向对象思想(二) 多态」</title>
-        <pubTime>2017-07-11T14:16:13.000Z</pubTime>
-        
-        <tag>OOP</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://devzhou.com/2017/07/18/casa-ios-architecture-openings/</loc>
-    <lastmod>2017-07-17T23:21:55.000Z</lastmod>
-    <data>
-        <display>
-        <title>笔记「iOS应用架构谈 开篇」</title>
-        <pubTime>2017-07-17T23:02:56.000Z</pubTime>
-        
-        <tag>Architecture</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS" url="http://devzhou.com/categories/iOS/"/>
+              <breadCrumb title="Objective-C" url="http://devzhou.com/categories/iOS/Objective-C/"/>
           
         </display>
     </data>
